@@ -1,13 +1,14 @@
 1. Introduction
-   - VM Based Deployment
+   - VM Based Deployment Advantags and Disadvantages
    - Container Based Deployment
+   - Difference between vm and container
    - What is Containrization
    - What is Docker
-5. Docker Architecture
-6. Docker Basic Commands
-7. Namespaces & cGroups
-8. Dockerfile
-9. Image Layers
-10. Image Best practices
-11. Docker Compose
-12. ECS
+2. Docker Architecture
+3. Docker Basic Commands
+4. Namespaces & cGroups
+5. Dockerfile
+6. Image Layers
+7. Image Best practices
+8. Docker Compose
+9. ECS
