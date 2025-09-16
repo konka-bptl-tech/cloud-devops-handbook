@@ -8,7 +8,6 @@
 3. Docker Basic Commands
 4. Namespaces & cGroups
 5. Dockerfile
-6. Image Layers
-7. Image Best practices
-8. Docker Compose
-9. ECS
+6. Docker Volumes & Docker Network
+7. Docker Compose
+8. ECS
