@@ -1,0 +1,57 @@
+---
+pipeline{
+    agent {
+        label 'agent'
+    }
+    stages{
+        stage("Build Stage"){
+            steps{
+                echo "Hello World!"
+            }
+        }
+    }
+}
+---
+@Library('ullagallu') _
+pipeline {
+    agent {
+        label 'agent'
+    }
+    stages{
+        stage('Greeting'){
+            steps{
+               sayHello('Jenkins')   
+            }
+        }
+    }
+}
+---
+@Library('ullagallu') _
+pipeline{
+    agent{
+        label 'agent'
+    }
+    stages{
+        stage("Build Started"){
+            steps{
+                buildApp("Build Completed....")
+            }
+        }
+        stage("Testing Started"){
+            steps{
+                testApp("Testing Complated")
+            }
+        }
+        stage("Building was Prepared"){
+            steps{
+                deployApp("dev","backend version 1.0.0")
+            }
+        }
+        stage("Notification fire"){
+            steps{
+                notifySlack("Deployment was successful!")
+            }
+        }
+    }
+}
+---

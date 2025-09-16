@@ -1,0 +1,15 @@
+FROM alpine:latest
+
+# Install all required packages
+RUN apk update && \
+    apk add --no-cache \
+        bind-tools \
+        curl \
+        mysql-client \
+        mongodb-tools \
+        redis \
+        rabbitmq-c && \
+    rm -rf /var/cache/apk/*
+
+WORKDIR /app
+CMD ["/bin/sh"]

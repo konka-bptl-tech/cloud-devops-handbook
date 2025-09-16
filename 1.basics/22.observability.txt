@@ -1,0 +1,55 @@
+1. you can get info about internal state of the system
+2. system = app + infra + network
+3. You will get info like
+
+ Some of the data points we observe
+ ---------- Metrics
+ 1. What is disk utlization of node in k8s cluster last 2 hours
+    - disk is under utilized
+    - disk is over utilized
+    - disk usage is constant
+    - partially utilized
+    - at one point of time went to peaks
+2. What is the CPU utilization
+3. Memory utilization
+4. Out of 1000 API calls mad to my application what is the no of API calls are success and how many requests are failed 
+wasting resources and money
+
+Note: It gives historical data of a event what is usage of last 24 hours, before 12 hours before hours
+
+---------- Logs
+1. Why 5 http requests are failed what is the reason for it
+2. Why there is a memroy leak why extra memory usage by particular application
+
+--------- Traces
+1. How the http request was flows from client to db You find where exactly http request got failed
+
+Example Scenario
+----------------
+1. Metrics part is basically understand for understanding what is the state of your system
+2. Logging is responsible for why your system in this particaular state
+3. Traces gives where exaclty gone wrong
+
+For example an http request got failed over the last 30 mins 10 requests are failed last 24 hours 100 requests are failed 
+you can get this hisotrical data using metrics we can pick up one http request using historical data you can identify the time 
+stamp at 10.00 clock a particaular request failed you can go to the logs of particaular app we can see what happend at 10'o clock
+By using traces which part of the application API call got failed Traces gives complete http request journey how much time it will
+taken between components 5ms is it excepted time frame or not did they exactly go to backend how much time it will taken
+
+
+types of logs: info,debug,error,trace
+
+You can get feedback of whole system
+
+
+SLA = Agreement between clients and owners
+
+Objectives = Make promises to the customer
+
+99.9% application is up and running through the year
+out 0f 100000 requests sent to our application 99,995 are requests gives reponse within the 30ms with 200 status code 
+
+
+
+
+
