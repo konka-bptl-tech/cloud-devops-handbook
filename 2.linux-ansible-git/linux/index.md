@@ -9,7 +9,7 @@
 
 ## 1. Linux Introduction
 - [ ] What is Linux?
-- [/] Difference between Linux & Windows
+- [ ] Difference between Linux & Windows
 - [ ] Linux Distributions (Ubuntu, CentOS, RHEL, Amazon Linux)
 - [ ] CLI vs GUI
 
@@ -115,3 +115,56 @@
 - [ ] `/etc/crontab`, `/etc/cron.hourly`, `/etc/cron.daily`, `/etc/cron.weekly`
 - [ ] One-time jobs with `at`
 - [ ] Security: `/etc/cron.allow` and `/etc/cron.deny`
+
+
+
+---
+
+# Bash Scripting Learning Roadmap
+
+## Legend:
+- [ ] Not Started  
+- [/] In Progress  
+- [x] Completed  
+
+---
+
+## 1. Variables & Special Variables
+- [ ] Declaring variables
+- [ ] Using variables in scripts
+- [ ] Environment variables vs local variables
+- [ ] Exporting variables (`export`)
+- [ ] Special variables (`$0`, `$1`, `$#`, `$?`, `$@`, `$*`)
+- [ ] Reading user input (`read`)
+
+## 2. Loops
+- [ ] `for` loops
+- [ ] `while` loops
+- [ ] `until` loops
+- [ ] Loop control (`break`, `continue`)
+- [ ] Iterating over files, numbers, and command output
+
+## 3. Conditions
+- [ ] `if`, `elif`, `else`
+- [ ] `[ ]` vs `[[ ]]` test conditions
+- [ ] String comparisons
+- [ ] Numeric comparisons
+- [ ] File checks (`-f`, `-d`, `-e`, `-r`, `-w`, `-x`)
+- [ ] `case` statements
+
+## 4. Functions
+- [ ] Defining functions
+- [ ] Passing arguments to functions
+- [ ] Returning values from functions
+- [ ] Scope of variables in functions
+- [ ] Using `source` or `.` to include functions
+
+## 5. SED, CUT, AWK, GREP
+- [ ] `grep` basics & options
+- [ ] Using `cut` for column extraction
+- [ ] `sed` basics (search & replace)
+- [ ] `sed` advanced usage (delete, insert, append lines)
+- [ ] `awk` basics (field processing)
+- [ ] `awk` advanced usage (patterns, actions, variables)
+
+
