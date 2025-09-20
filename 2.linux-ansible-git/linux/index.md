@@ -9,7 +9,7 @@
 
 ## 1. Linux Introduction
 - [ ] What is Linux?
-- [ ] Difference between Linux & Windows
+- [/] Difference between Linux & Windows
 - [ ] Linux Distributions (Ubuntu, CentOS, RHEL, Amazon Linux)
 - [ ] CLI vs GUI
 
