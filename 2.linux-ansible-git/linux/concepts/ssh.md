@@ -1,21 +1,8 @@
-Got it! I’ll create an **SSH Cheat Sheet** in the **same structured Markdown format** as the package management one. It will include:
-
-✔ **What is SSH & Why We Use It**
-✔ **Configuration File Locations**
-✔ **Common Commands**
-✔ **Key Management**
-✔ **Advanced Options**
-
-Here’s the full **SSH Cheat Sheet**:
-
----
-
 ````markdown
 # SSH (Secure Shell) Cheat Sheet
 
 ## ✅ What is SSH?
-SSH (Secure Shell) is a protocol used to **securely connect to remote systems** over a network.  
-It encrypts all data between the client and server, including commands, output, and authentication.
+SSH, or Secure Shell, is a cryptographic protocol used to securely log in to remote systems, run commands, and transfer files over an unsecured network. It replaces insecure protocols like Telnet by providing encrypted communication, strong authentication, and integrity protection
 
 **Purpose of SSH:**
 - Secure remote login to servers
@@ -153,9 +140,6 @@ sudo systemctl restart sshd
 * Change default SSH port
 * Enable **fail2ban** for brute-force protection
 
----
-
-Here’s how you can **enable and configure Fail2ban** on Linux to protect against **SSH brute-force attacks**.
 
 ---
 

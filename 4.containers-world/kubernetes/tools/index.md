@@ -6,3 +6,5 @@
 5. ArGoCD 
 6. Kyverno
 7. Crd's & Operators
+8. Cluster Upgradation
+9. Deploymeny Strategies
