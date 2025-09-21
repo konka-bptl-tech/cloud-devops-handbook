@@ -1,49 +1,119 @@
-1. Problems with Docker
-2. What is the Meaning of Orchestration
-3. What is K8s
-4. K8s Features
-5. K8s Architecture
-6. Pods
-7. Labels & Selectors,namespaces
-8. Workload Management
-   - Deployment
-   - ReplicaSet
-   - HPA
-   - Job
-   - CronJob
-   - DaemonSet
-   - Statefulset
-9. Services,CoreDNS
-   - ClusterIP
-   - NodePort
-   - LoadBalancer
-   - ExternalName
-   - Headless
-   - ingress
-   - API GW
-10. Storage
-    - emptyDir
-    - hostPath
-    - static volume provisioning
-    - dynamic volume provisioning
-11. Kustomization
-12. Helm
-13. ConfigMap & Secrets
-14. Probes
-     - Liveness
-     - Readiness
-15. Security
-    - RBAC 
-    - Network Policies
-16. Advance Scheduling
-    - Taints & Tolerations
-    - Affinity
-    - Pod Affinity
-17. Limit Ranges & Resource Quotas
-18. Karpenter
-19. Hashicorp vault Integration
-20. Observability
-    - Monitoring[Prometheus&Grafana,Mimir&Grafana]
-    - Logging[EFKStack,Loki&Grafana]
-    - Traces[ISTIO]
-21. Cluster Upgradation
+# Kubernetes Learning Roadmap
+
+## Legend:
+- [ ] Not Started  
+- [/] In Progress  
+- [x] Completed  
+
+---
+
+## 1. What is Container Orchestration
+- [ ] Understand the need for container orchestration
+- [ ] Compare manual container management vs orchestration
+- [ ] Use cases in production environments
+
+## 2. What is Kubernetes & What it Does
+- [ ] Introduction to Kubernetes
+- [ ] Benefits of Kubernetes
+- [ ] Use cases in DevOps and microservices
+
+## 3. Kubernetes Architecture & Components & General Request Flow
+- [ ] Master and Worker nodes
+- [ ] API Server, Scheduler, Controller Manager, etcd
+- [ ] Kubelet, Kube-proxy
+- [ ] Container Runtime Interface (CRI)
+- [ ] Request flow from user → API → Scheduler → Kubelet → Pod
+
+## 4. Pods & Pod Life Cycle & CRI
+- [ ] What is a Pod
+- [ ] Pod Life Cycle (Pending, Running, Succeeded, Failed, Unknown)
+- [ ] Pod phases vs Pod conditions
+- [ ] Container Runtime Interface (CRI)
+
+## 5. Labels, Selectors & Annotations
+- [ ] Labels (key-value pairs)
+- [ ] Selectors (how controllers select Pods)
+- [ ] Annotations (metadata)
+
+## 6. Namespaces & Use Cases
+- [ ] What are namespaces
+- [ ] Using namespaces for isolation
+- [ ] Multi-tenant use cases
+
+## 7. Controllers
+- [ ] ReplicaSet & Replication Controller
+- [ ] Deployment
+- [ ] StatefulSet
+- [ ] DaemonSet
+- [ ] Job & CronJob
+- [ ] Horizontal Pod Autoscaler (HPA) & Metrics Server
+
+## 8. Services & CNI
+- [ ] ClusterIP
+- [ ] NodePort
+- [ ] LoadBalancer
+- [ ] Headless Service
+- [ ] ExternalName
+- [ ] How DNS works in Kubernetes
+
+## 9. Ingress & API Gateway
+- [ ] Introduction to Ingress
+- [ ] Ingress controllers
+- [ ] API Gateway basics
+- [ ] Routing rules
+
+## 10. Volume Management & CSI
+- [ ] Static Volume Management
+- [ ] Dynamic Volume Management
+- [ ] Persistent Volumes (PV) & Persistent Volume Claims (PVC)
+- [ ] Storage Classes
+
+## 11. Configuration Management
+- [ ] ConfigMap
+- [ ] Secrets
+- [ ] Probes (Liveness, Readiness, Startup)
+
+## 12. Scheduling
+- [ ] Default Scheduling
+- [ ] Advanced Scheduling
+  - [ ] NodeSelector
+  - [ ] Affinity, Pod Affinity & Anti-Affinity
+  - [ ] Taints & Tolerations
+
+## 13. Resource Management
+- [ ] Requests & Limits
+- [ ] Resource Quotas
+- [ ] Limit Ranges
+
+## 14. RBAC & Security
+- [ ] Role & RoleBinding
+- [ ] ClusterRole & ClusterRoleBinding
+- [ ] Service Account
+- [ ] Admission Controllers
+- [ ] Network Policies
+- [ ] Pod Security
+
+## 15. CRDs & Operators
+- [ ] Custom Resource Definitions (CRDs)
+- [ ] Operators & use cases
+
+## 16. Pod Priority, PriorityClass & Preemption
+- [ ] Understanding pod priority
+- [ ] PriorityClass definition
+- [ ] Preemption mechanism
+
+## 17. Kustomize & Helm
+- [ ] Introduction to Kustomize
+- [ ] Helm charts
+- [ ] Managing environments & releases
+
+## 18. Karpenter & Components
+- [ ] What is Karpenter
+- [ ] Dynamic cluster scaling
+- [ ] Karpenter components
+
+## 19. Istio & Components
+- [ ] Introduction to Istio
+- [ ] Service Mesh concepts
+- [ ] Istio architecture & components
+- [ ] Traffic management, security, observability
