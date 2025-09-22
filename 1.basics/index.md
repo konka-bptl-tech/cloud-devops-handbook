@@ -49,15 +49,13 @@
 - Nginx (Forward/Reverse Proxy, Static Hosting, Load Balancer)
 
 ## 12. Auto Scaling
-- HPA (Horizontal Pod Autoscaler)
-  - Scale Out / Scale In
-- VPA (Vertical Pod Autoscaler)
-  - Scale Up / Scale Down
+- Horizontal Scaling[Scale Out / Scale In]
+- Vertical Scaling[Scale Up / Scale Down]
 
 ## 13. Storage Types
-- Block Storage (EBS)
-- Object Storage (S3)
-- File Storage (EFS/NFS)
+- Block Storage
+- Object Storage
+- File Storage
 
 ## 14. Caching
 - In-memory Cache (Redis, Memcached)
@@ -87,13 +85,14 @@
 - CI (Continuous Integration)
 - CD (Continuous Delivery / Deployment)
 - Release Strategies
+  - Blue-Green Deployment
+  - Canary Deployment
 - Rollback & Upgrade
 
 ## 22. Observability
-- Metrics
+- Metrics & Alerting
 - Logs
 - Traces
-- Alerting
 
 ## 23. SRE Concepts
 - SLI (Service Level Indicator)

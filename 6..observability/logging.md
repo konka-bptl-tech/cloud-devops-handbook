@@ -12,3 +12,19 @@ LogStash = filtering,format the logs before stroing the elastic search
 filebeat = light weight log shipper
 
 
+
+# ElasticSearch
+
+# LogStash
+
+# Filebeat
+
+# Kibana
+
+
+# Tasks
+
+1. I need to collect the logs of only particular ns
+2. I want format and parse the logs
+3. Need to create dashboards for no of hists to the component how many are success and failure
+4. I need to create dashboard for each component to look into logs of component

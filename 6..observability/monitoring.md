@@ -70,3 +70,18 @@ http request total - counter
 http request duration seconds - histogram[0.1,0.2,05,1]
 http request duration summary secords
 
+
+
+
+
+
+# Tasks
+1. alerts configuration for different incidents
+   - disk usage reaches 80%
+   - system down
+   - app down
+   - cpu & memory consumption reaches to 60%
+2. Simple grafana dashboards creation
+3. Metrics Scraping best practices
+4. Recording rules
+5. Grafana templating & Multi-Service Dashboards
