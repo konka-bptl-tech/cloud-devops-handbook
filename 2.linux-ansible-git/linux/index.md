@@ -1,17 +1,12 @@
 # Linux Learning Roadmap
 
-## Legend:
-- [ ] Not Started  
-- [/] In Progress  
-- [x] Completed  
-
----
-
 ## 1. Linux Introduction
-- [ ] What is Linux?
-- [ ] Difference between Linux & Windows
-- [ ] Linux Distributions (Ubuntu, CentOS, RHEL, Amazon Linux)
-- [ ] CLI vs GUI
+1. OS
+2. Kernal & Features
+3. Command
+4. Shell
+5. Terminal
+6. Terminal Shortcuts
 
 ## 2. Kernel & Features
 - [ ] Linux Kernel basics
