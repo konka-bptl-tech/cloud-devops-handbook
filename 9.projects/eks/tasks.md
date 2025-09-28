@@ -1,58 +1,69 @@
 # Tasks
 
-**Manual**
-- creating EKS cluster with eksctl
+# Kind
+- Create kind Cluster
+- Install ArgoCD
+- Managing Apps through GitOPs
+  - namepsaces
+  - storageclasses
+  - ELK
+  - Instana[project]
+  - Expense[project]
+  - github runner 
+- Prometheus & Grafana
+- Istio
+  - Kiali & Jaeger
+  - It's resources
 
-**terraform**
-- Creating EKS cluster with terraform
-- VPC module with appropriate tags for subnets about loadbalancing and karpenter
-- SG module
-  - RDS
-  - Elastic Cache
-  - EKS Control Plane
-  - NodeGroup
-  - ALB/NLB
-- IAM Roles/Pod Identities,Policies
-- 
-
-
-- promehteus & grafana installation[c]
-- EFK stack installation
-- istio installation on EKS cluster base[c]
-- kialai jaegar installation
+- Blue-Green Deployment
+- Canary Deployment
 
 
 
--  can i create helm chart and place in github
-- through terraform can i install above helm chart is it possible
-- same way I have set of ingress files for
-  - prometheus
-  - grafana
-  - alertmanager
-  - kibana
+# Infracreation with terraform
+1. VPC & Components
+2. SG
+3. EC2
+4. RDS
+5. ElasticCache
+6. IAM
+7. EKS
+   - EKS Control Plane
+   - Node Group
+   - Addons
+8. Pod Identities
+9. Karpenter
+
+**Tasks**
+- all tasks in above kind same tasks can be performed here also
+- Cluster Upgradation
+- Ingress Controller
   - kiali
-  - jaegar
-- I templatize and pass the values via values.yaml
-- Can I create helm chart for namespaces creating
-  in values section I can just pass nameespaces names
+  - jaeger
+  - grafana
+  - proemtheus
+  - alertmanager
+  - grafana
+  - kibana
+  - instana
+  - argocd
+  - expense
+- ISTIO IngressGW
+  - kiali
+  - jaeger
+  - grafana
+  - proemtheus
+  - alertmanager
+  - grafana
+  - kibana
+  - instana
+  - argocd
+  - expense
 
 
-# EKS Cluster
-
-# Networking
-- VPC Components
-  - web,app,db,elastic-cache
-  - NAT
-- Securty Groups
-- EC2 instances
-  - Bastion
-  - user1
-  - user2
-  - vpn
-- RDS
-- Elastic-cache
-- ALB & TG
-- EKS Cluster & NG & Karpenter
-
-
+# CI/CD
+- Jenkins pipelines & ArgoCD
+- SharedLibs
+- Jenkins Version Upgrade
+- Multi Branch Pipeline
  

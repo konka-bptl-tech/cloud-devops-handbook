@@ -1,21 +1,39 @@
-# C =  Completed
-# P = Progression
-# NYP = Not Yet Plan
-# Tasks list
+# Project SetUp
+Already 
 
-- Application flow tested aws cli
+Senstive Data was Stored in Secrets Manager
+Non-Sensitive Data was in Parameter Store
 
-- create infra structure for hosting serverless application on aws services[c]
-    - terraform modules need to develop and tested for application[c]
-    - acm module for creating certificates[c]
-    - iam module for creating required iam roles and attachments[c]
-    - vpc for networking[c]
-    - security group module[c]
-    - ec2 module[c]
-    - elastic cache module[c]
-    - rds module[c]
-    - ALB module[c]
-    - S3 & Cloud front module[c]
-    - ECS module[NYP]
-    - Cloudwatch Module[NYP]
-- Github actions for CI/CD blue-green deployments[NYP]
+# AWS Cli Way to Setup Project
+- RDS
+- Elastic Cache
+- ECS
+  - ECS Cluster
+  - Containerize Backend
+  - Log Group Creation
+  - Namespaces
+  - CloudMap
+  - Task Definition
+  - Service
+  - ALB
+- S3 & CloudFront
+  - upload frontend application to s3
+  - CORS enable
+  - Create Cloud Front
+
+
+# Automation Infrastructure
+1. IAM
+2. CloudWatch
+3. ACM
+4. VPC module & Components
+5. SG
+6. RDS
+7. ElasticCache
+8. ALB
+9. ECS
+10. Athena
+11. S3 & CloudFront
+
+# CI/CD
+- Github Actions

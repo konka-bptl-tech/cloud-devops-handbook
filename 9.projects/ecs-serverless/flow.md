@@ -1,7 +1,7 @@
 # Serverless-Hosted Architecture
 
 ```
-www.serverless.konkas.tech (DNS - Route53 or similar)
+ecs.ullagallu.in (DNS - Route53 or similar)
     ↓
 CloudFront (CDN + SSL + WAF + Caching)
     ↓
@@ -15,9 +15,13 @@ Backend (NodeJS app running on ECS - Fargate or EC2 launch type)
         ↘     ↓
            RDS (Database)
 ```
+---
 
 - CI/CD : GithubActions
+- Cloud: AWS
 - Docker: Containerization
 - Terraform: InfraStructure
 - Observability: CloudWatch
 - AWS Secrets Manager: Secrets management
+
+---
