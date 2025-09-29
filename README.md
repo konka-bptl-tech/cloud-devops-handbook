@@ -44,35 +44,21 @@
 
 # ISTIO,Karpenter,ArGoCD,HELM,Kustomization,Kyverno
 
-# Morning[10-to-1][One-topic]
-1. AWS
-2. Terraform
-3. Docker
-4. Jenkins
-
-# AfterNoon[2-to-5]
-1. Projects
-2. TroubleShooting Scenarios
-3. Kubernetes
-
-# Evening/Night[7-to-10]
-1. Interview Preparation
-2. Profiles Building
-3. Resume Building
-4. Kubernetes
-
-This is the time I can give minimum time for my carreer extra time is bonus
-
-
-
-
-
-
-
-
-
-
-
-
 # DevOps Cloud
 ![DevOps Flow](./images/flow.drawio.svg)
+
+# Projects Sessions
+- infrasetup
+- ci/cd pipelines
+- monitoring & logging
+- release management
+- project explanation practice
+### 
+
+### 3-tier[9:30AM to 11:30AM]
+
+### Serversless[12PM to 2PM]
+
+### EKS[3PM to 5PM]
+
+### Resume Session & Profiles Building
