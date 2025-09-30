@@ -9,64 +9,63 @@
 6. Terminal Shortcuts
 
 ## 2. Kernel & Features
-- [ ] Linux Kernel basics
-- [ ] Kernel Space vs User Space
-- [ ] Boot Process Overview (BIOS → GRUB → Kernel → init/systemd)
-- [ ] Init vs systemd
+1. Linux Kernel basics
+2. Kernel Space vs User Space
+3. Boot Process Overview (BIOS → GRUB → Kernel → init/systemd)
+4. Init vs systemd
+5. Profile files
 
-## 3. Terminal Basics & Shortcuts
-- [ ] Terminal vs Shell vs Console
-- [ ] bash, sh, zsh
-- [ ] Tab completion, history, clear, exit
-- [ ] `man` pages
-- [ ] Keyboard shortcuts (Ctrl + C, Ctrl + Z, etc.)
+## 3. Basic linux Commands
+1. File/Directory Commands
+2. Viewing Contennt
+3. Text Search
+4. Data & time Commands
+5. man pages
 
-## 4. Basic Linux Commands
-- [ ] File/Directory operations (`ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv`)
-- [ ] Viewing content (`cat`, `less`, `more`, `head`, `tail`)
-- [ ] Text search (`grep`, `find`, `locate`)
-- [ ] Compression (`tar`, `gzip`, `zip`)
-- [ ] Date/time commands
+## 4. File System
+1. Linux directory structure (`/`, `/bin`, `/etc`, `/var`, `/usr`, `/home`)
+2. Absolute vs Relative paths
+3. Mount points
+4. File types (regular, directory, link, device)
+5. Soft & Hard Links
+6. Directory special entries
 
-## 5. File System
-- [ ] Linux directory structure (`/`, `/bin`, `/etc`, `/var`, `/usr`, `/home`)
-- [ ] Absolute vs Relative paths
-- [ ] Mount points
-- [ ] File types (regular, directory, link, device)
+## 5. Redirections
+1. Output redirection (`>`, `>>`)
+2. Input redirection (`<`)
+3. Error redirection (`2>`)
+4. Pipes (`|`)
+5. Combining commands
+6. tee
 
-## 6. Redirections
-- [ ] Output redirection (`>`, `>>`)
-- [ ] Input redirection (`<`)
-- [ ] Error redirection (`2>`)
-- [ ] Pipes (`|`)
-- [ ] Combining commands
+## 6. User Management
+1. Authentication & Authroization
+2. Users & Groups & System Users
+3. `useradd`, `usermod`, `passwd`, `groupadd`
+4. `/etc/passwd`, `/etc/shadow`, `/etc/group`
+5. Switching users (`su`, `sudo`)
 
-## 7. User Management
-- [ ] Users & Groups
-- [ ] `useradd`, `usermod`, `passwd`, `groupadd`
-- [ ] `/etc/passwd`, `/etc/shadow`, `/etc/group`
-- [ ] Switching users (`su`, `sudo`)
 
-## 8. File Permissions & UMASK
-- [ ] Read, Write, Execute permissions
-- [ ] Owner, Group, Others
-- [ ] `chmod`, `chown`, `chgrp`
-- [ ] Special permissions (SUID, SGID, Sticky Bit)
-- [ ] umask & default permissions
+## 7. File Permissions & UMASK
+1. Read, Write, Execute permissions
+2. Owner, Group, Others
+3. `chmod`, `chown`, `chgrp`
+4. Special permissions (SUID, SGID, Sticky Bit)
+5. umask & default permissions
 
-## 9. SSH
-- [ ] SSH basics & keys
-- [ ] Password vs key-based authentication
-- [ ] `ssh`, `scp`, `sftp`
-- [ ] SSH config files
-- [ ] SSH hardening (port change, disabling root login)
+## 8. SSH
+1. SSH basics & keys
+2. Password vs key-based authentication
+3. `ssh`, `scp`, `sftp`
+4. SSH config files
+5. SSH hardening (port change, disabling root login)
 
-## 10. Process Management
-- [ ] Foreground vs Background processes
-- [ ] `ps`, `top`, `htop`
-- [ ] `kill`, `pkill`
-- [ ] Jobs (`bg`, `fg`)
-- [ ] Scheduling: `cron` & `at`
+## 9. Process Management
+1. Foreground vs Background processes
+2. `ps`, `top`, `htop`
+3. `kill`, `pkill`
+4. Jobs (`bg`, `fg`)
+6. All Commands
 
 ## 11. Log Management
 - [ ] `/var/log` directory

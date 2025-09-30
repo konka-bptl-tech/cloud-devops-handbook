@@ -444,3 +444,65 @@ nohup ./longtask.sh &
 
 ---
 
+
+Sure, Konka! Let’s explain the **`uptime`** command clearly.
+
+---
+
+# **`uptime` Command**
+
+### **Definition**
+
+* `uptime` shows **how long the system has been running** since last boot.
+* Also displays **current time, number of users, and system load averages**.
+
+---
+
+### **Basic Syntax**
+
+```bash
+uptime
+```
+
+---
+
+### **Example Output**
+
+```bash
+04:30:12 up 5 days,  3:45,  2 users,  load average: 0.15, 0.10, 0.05
+```
+
+**Explanation:**
+
+* `04:30:12` → Current system time
+* `up 5 days, 3:45` → System uptime (5 days, 3 hours 45 minutes)
+* `2 users` → Number of users currently logged in
+* `load average: 0.15, 0.10, 0.05` → System load averages for **1, 5, and 15 minutes**
+
+---
+
+### **Optional Flags**
+
+* `-p` → Pretty format
+
+```bash
+uptime -p
+# up 5 days, 3 hours, 45 minutes
+```
+
+* `-s` → Show when the system was **last booted**
+
+```bash
+uptime -s
+# 2025-09-25 01:00:00
+```
+
+---
+
+### **Use Cases**
+
+* Check how long the system has been running
+* Monitor system load trends over time
+* Quickly see number of logged-in users
+
+---
