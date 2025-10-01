@@ -60,10 +60,6 @@ No signs = On Cards
 
 Note: Blue-Green Deployment Strategy 
 
-
----
-Perfect! Here’s a **refined checklist version** of your project setup incorporating the improvements and best practices. I’ve kept it simple and actionable so you can use it directly while implementing.
-
 ---
 
 # **3-Tier AWS Project Setup Checklist**
@@ -129,7 +125,6 @@ No sign – To do
 * [C] CloudFront – attach S3, enable logging
 * [P] Athena module – for querying logs
 * [P] CloudWatch – dashboards & alarms for:
-
   * EC2 (CPU, memory, disk)
   * RDS metrics (CPU, connections, latency)
   * Cache metrics
@@ -141,6 +136,17 @@ No sign – To do
 * Tag all resources for environment, team, and project.
 
 ---
+
+## **5. Packer**
+* [] Backend Golden AMI
+   * [] CloudWatch Agent for Memory
+   * [] Node Exporter for App metrics
+   * [] FileBeat for app metrics
+
+* [] Frontend Golden AMI
+   * [] CloudWatch Agent for Memory
+   * [] Node Exporter for App metrics
+   * [] FileBeat for app metrics
 
 ## **4. CI/CD Pipelines**
 
@@ -160,10 +166,14 @@ No sign – To do
 
 ## **5. Monitoring & Logging**
 
-* [P] CloudWatch dashboards for backend/frontend/DB/cache metrics
-* [P] Enable ALB access & connection logs → S3 → Athena
-* [P] CloudFront logging → S3 → Athena
-* [P] Setup CloudWatch alarms and notifications
+**Prometheus & Grafana,Elastic Stack**
+* [] Grafana Dashboards
+   * [] App metrics 
+* [] Kibana Dashboards
+   * [] App Logs
+* [] Enable ALB access & connection logs → S3 → Athena
+* [] CloudFront logging → S3 → Athena
+* [] Setup CloudWatch alarms and notifications
 
 ---
 
