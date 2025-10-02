@@ -1,6 +1,6 @@
 # Kubernetes Services
-1. Kubernetes DNS
-2. Kubernetes Services
+DNS
+Services
    - ClusterIP
    - NodePort
    - LoadBalancer
