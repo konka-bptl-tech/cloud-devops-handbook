@@ -1,3 +1,4 @@
+# Health Care Domain
 # Tools & Technologies
 - Jenkins & ArgoCD[CI-CD]
   - Release Applications via Blue-Green Deployment
@@ -9,7 +10,7 @@
     - Kyverno[EnforceSecurity]
     - Karpenter[Instant-Scaling]
     - Gateway API[Norht-South-traffic]
-    - Istio[East-West-traffic]
+    - Istio[East-West-traffic,Observability]
 - Prometheus&Grafana[Monitoring]
 - ElastiStack[Logging]
 - Kiali & Jaeger[Traces]
@@ -17,3 +18,15 @@
 - Follow the seucirty practices
 - Troubleshooting[RCA Analysis]
 - Collaborate with Multiple teams[Dev,QA....]
+
+
+
+# Major Ressponsibilites 
+- Cluster Administration
+  - Multi tenent CLuster
+  - CLuster Upgradationss
+- CI/CD pipeline management
+- Application Release Management
+- Infra Management
+- Cost Optimization
+- TroubleShooting and RCA
