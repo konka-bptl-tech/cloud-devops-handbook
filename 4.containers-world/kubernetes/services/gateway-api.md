@@ -140,10 +140,6 @@ Routes define **how traffic should flow from a Gateway to services**. They are p
 
 ---
 
-Sure! Let’s make this **simple and practical** for Kubernetes Gateway API.
-
----
-
 ## **Example: HTTP Gateway API**
 
 ### 1. **GatewayClass**
