@@ -21,18 +21,19 @@
 
 
 # Infracreation with terraform
-1. VPC & Components
-2. SG
-3. EC2
-4. RDS
-5. ElasticCache
-6. IAM
+1. VPC & Components[c]
+2. SG[c]
+3. ACM[c]
+3. EC2[c]
+4. RDS[c]
+5. ElasticCachec[c]
+6. IAM[c]
 7. EKS
-   - EKS Control Plane
-   - Node Group
-   - Addons
-8. Pod Identities
-9. Karpenter
+   - EKS Control Plane[c]
+   - Node Group[c]
+   - Addons[p]
+8. Pod Identities[p]
+9. Karpenter[p]
 
 **Tasks**
 - all tasks in above kind same tasks can be performed here also
