@@ -1,3 +1,64 @@
+## 1. Git Introduction
+
+### Git
+
+* **Git:** Distributed Version Control System (DVCS) to **track changes in code**, collaborate, and manage multiple versions.
+* **Key Feature:** Each developer has a **full copy of the repository** locally.
+
+---
+
+### VCS vs DVCS
+
+| Feature            | VCS (Centralized)      | DVCS (Git)                    |
+| ------------------ | ---------------------- | ----------------------------- |
+| Repository         | Single central repo    | Full copy for every developer |
+| Network dependency | Must connect to server | Can work offline              |
+| History            | Stored on server       | Stored locally + server       |
+| Collaboration      | Push/Pull to server    | Push/Pull + local commits     |
+| Examples           | SVN, CVS               | Git, Mercurial                |
+
+**Easy way to say:**
+
+* **VCS = central repo, always online**
+* **DVCS = local + central, can work offline**
+
+---
+## 2. Git Basic Configuration
+
+### Purpose
+
+* Set up **user identity, editor, and preferences** for commits and Git operations.
+
+### Commands
+
+```bash
+# Set username
+git config --global user.name "Your Name"
+
+# Set email
+git config --global user.email "you@example.com"
+
+# Set default editor
+git config --global core.editor "vim"
+
+# View current config
+git config --list
+```
+
+**Key Points:**
+
+* `--global` → applies for all repos on your machine
+* Without `--global` → applies only to the current repository
+* Required for **commits to show correct author info**
+
+---
+
+**Easy way to explain in interview:**
+
+* “Git config sets **username, email, and editor**, so commits are tracked with proper identity.”
+
+---
+
 ## 2. Git Working Areas
 
 Git has **three main areas**:
