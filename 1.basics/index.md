@@ -120,3 +120,8 @@
 | Backup & Restore | Creating copies for recovery in failure scenarios |
 | Cost Optimization | Reducing unnecessary cloud spend while ensuring performance, availability, and scalability. Done using right-sizing, auto-scaling, reserved instances, S3 lifecycle rules, etc. |
 
+# 25. Migration Strategy
+
+# 26. BackUp & Disaster Recovery
+
+# 27. Chaos Engineering
