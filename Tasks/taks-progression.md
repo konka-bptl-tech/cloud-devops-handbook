@@ -20,3 +20,7 @@
 
 
 # ECS project Setup
+
+
+# 18,19-10-2025
+1. Projects Preparation for interviews
