@@ -85,3 +85,68 @@ http request duration summary secords
 3. Metrics Scraping best practices
 4. Recording rules
 5. Grafana templating & Multi-Service Dashboards
+
+---
+
+### ✅ 1. **Infrastructure / System-Level Metrics**
+
+These are the health of the underlying compute (Server, EC2, ECS, Kubernetes Pod, etc.)
+
+* **CPU usage** (high CPU = performance bottleneck)
+* **Memory usage** (increase over time = memory leak)
+* **Disk I/O / Storage usage**
+* **Network traffic (in/out bytes, latency)**
+* **Pod restarts / container health** (for Kubernetes)
+* **Node health (Ready / NotReady in Kubernetes)**
+
+---
+
+### ✅ 2. **Application Performance Metrics**
+
+These define the experience of end users
+
+* **Response time (latency — P50, P90, P99)**
+* **Request throughput (RPS – requests per second)**
+* **Error rate (% of failed API calls — 4xx/5xx)**
+* **DB query execution time**
+* **External call latency (e.g., payment API, auth service)**
+* **Queue processing delay (SQS, Kafka, RabbitMQ, etc.)**
+
+---
+
+### ✅ 3. **Business / Functional Metrics**
+
+These are application-specific (decided by business)
+
+* **Number of user signups**
+* **Number of orders placed**
+* **Failed payment count**
+* **Active logged-in users**
+* **Abandoned checkout count**
+* **Revenue per minute / sales per region**
+
+---
+
+### ✅ 4. **Security & Reliability Metrics**
+
+To ensure the app is protected
+
+* **Login failures / brute-force attempts**
+* **Unusual API access patterns / rate limit hits**
+* **SSL certificate expiration**
+* **IAM permission failures**
+* **Number of 403/401 unauthorized requests**
+* **API throttling or WAF blocked requests**
+
+---
+
+### Summary Table
+
+| Category    | Example Metrics                            |
+| ----------- | ------------------------------------------ |
+| Infra       | CPU, Memory, Disk, Network, Pod Restarts   |
+| Application | Latency, RPS, Error %, DB query time       |
+| Business    | Orders, Signups, Revenue, Payment failures |
+| Security    | Login failures, 401/403, WAF blocks        |
+
+---
